@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Transition</title>
+
+	<style type="text/css">
+
+		button{
+			width: 290px;
+			height: 90px;
+			background-color: blue;
+			color:#fff;
+			font-size:28px;
+			border:none;
+
+			/*transition-property ko 1 ku htet ma kapy chin yin 2 / 3 ... khr ma write ya group selector nae write ml */
+			/*transition-property: width,background-color,color;*/
+			/*transition-property: all;*/ /*akone lone ko lo chin yin value ko all py ml*/
+			/*transition-duration: 2s; */
+
+
+			/*Short Hand*/
+					/*tp    tdu*/
+			/*transition: background-color 3s;*/
+			/*transition: all 3s;*/
+
+
+			/*transition: width 10s, background-color 3s, color 3s;*/
+
+
+
+
+			/*Effect*/
+			/*transition-property: all;
+			transition-duration: 3s;
+			transition-timing-function: linear;*/
+			
+			/*short hand*/
+						/*tp              tdu  ttf*/
+			/*transition: background-color 3s ease-in-out;*/
+			transition: all 3s ease-in-out;
+
+		}
+
+		button:hover{
+			/*width: 600px;*/
+			background-color: red;
+			color:#000;
+
+			/*border-radius: 20px;*/
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<button>CSS Transition</button>
+
+</body>
+</html>

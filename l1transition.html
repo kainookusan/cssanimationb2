@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Transition</title>
+	<style type="text/css">
+
+		button{
+			width: 290px;
+			height: 90px;
+			background-color: pink;
+			color: #fff;
+			font-size: 28px;
+			border:none; 
+
+			/*transition ko parent mhr lr htae br ml*/
+			transition-property: background-color;/*value ka chage chin dae place ko write lx ya / br ko load mhr lae*/
+			/*transition-duration: 1s;*/
+					/*1s = 1000ms*/
+			transition-duration: 2000ms;
+		}
+
+		/*pseudo class (:)*/
+		button:hover{
+			background-color: gray;
+
+		}
+	</style>
+
+</head>
+<body>
+
+	<button>CSS Transition</button>
+
+</body>
+</html>
